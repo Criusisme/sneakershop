@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sneaker Shop</title>
+    
+    <link rel="stylesheet" href="css/sneaker.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="navbar-brand">Ur.<span>Sneakers</span></div>
+            <ul class="navbar-menu">
+                <li><a href="#homepage">Home</a></li>
+                <li><a href="#brands-section">Brands</a></li>
+                <li><a href="#collection">Collection</a></li>
+                <li><a href="#aboutus">About Us</a></li>
+
+                <li><button id="logout-button" class="logout-btn">Logout</button></li>
+     
+            </ul>
+        </nav>
+    </header>
+
+  
+    <section>
+        <div id="homepage" class="homepage-container">
+          <div class="text-content">
+            <h1>The Art of Sneakers</h1>
+            <p>Sneakers have evolved from simple athletic wear to cultural icons that define style and self-expression. Whether you’re a sneakerhead or just appreciate a good pair of kicks, the right sneakers can make a powerful statement.</p>
+            <p>From classic designs that have stood the test of time to cutting-edge innovations that push the boundaries of fashion, sneakers are more than just shoes—they’re a lifestyle.</p>
+          </div>
+          <img src="img/875388b8-c428-47b4-a4f1-6e4ea483786f-CEB_Sneaker_artist_fs_6.webp" alt="The Art of Sneakers" class="image-content">
+        </div>
+      </section>
+     
+      <section id="brands-section">
+        <h2>Explore Top Brands</h2>
+        <p>We offer a wide range of sneakers from the world's leading brands. Whether you're looking for the latest releases or timeless classics, you'll find it here.</p>
+        <div class="brand-logos">
+            <img src="img/nike logo.png" alt="Nike">
+            <img src="img/adidas logo.png" alt="Adidas">
+            <img src="img/jordan.jpg" alt="Jordan">
+            <img src="img/reebok.png" alt="NB">
+            <img src="img/puma logo.png" alt="Puma" >
+            <!-- Add more logos as needed -->
+        </div>
+    </section>
+
+      <!-- seaerch bar  -->
+      <div id="search-section">
+        
+        <input type="text" id="search-bar" placeholder="Search for sneakers...">
+    </div>
+    
+      
+
+    
+    <section id="sneaker-list">
+        <div class="sneaker-item" data-brand="Nike Air Max">
+            <img src="shoe img/NIKE+AIR+MAX+270+(GS).png"  alt="Nike Air Max" class="sneaker-image">
+            <h3>Nike Air Max</h3>
+            <p>Price: $120</p>
+            <button class="buy-button">Buy</button>
+            <p class="thank-you-message" style="display: none;">Thank you for buying this!</p>
+        </div>
+        <div class="sneaker-item" data-brand="Adidas Ultraboost">
+            <img src="shoe img/adidas.jpg"  alt="Adidas Ultraboost" class="sneaker-image">
+            <h3>Adidas Ultraboost</h3>
+            <p>Price: $150</p>
+            <button class="buy-button">Buy</button>
+            <p class="thank-you-message" style="display: none;">Thank you for buying this!</p>
+        </div>
+        <div class="sneaker-item" data-brand="Jordan 1">
+            <img src="shoe img/air-jordan-1-high-og-yellow-ochre-dz5485-701-release-date.jpg"  alt="Jordan 1" class="sneaker-image">
+            <h3>Jordan 1</h3>
+            <p>Price: $180</p>
+            <button class="buy-button">Buy</button>
+            <p class="thank-you-message" style="display: none;">Thank you for buying this!</p>
+        </div>
+        <div class="sneaker-item" data-brand="New Balance 990">
+            <img src="shoe img/nb 999.webp"  alt="New Balance 999" class="sneaker-image">
+            <h3>New Balance 999</h3>
+            <p>Price: $140</p>
+            <button class="buy-button">Buy</button>
+            <p class="thank-you-message" style="display: none;">Thank you for buying this!</p>
+        </div>
+        <div class="sneaker-item" data-brand="Puma Suede">
+            <img src="shoe img/png.avif"  alt="Puma Suede" class="sneaker-image">
+            <h3>Puma Suede</h3>
+            <p>Price: $90</p>
+            <button class="buy-button">Buy</button>
+            <p class="thank-you-message" style="display: none;">Thank you for buying this!</p>
+        </div>
+        <div class="sneaker-item" data-brand="Reebok Classic">
+            <img src="shoe img/reebok classic.jpg"  alt="Reebok Classic" class="sneaker-image">
+            <h3>Reebok Classic</h3>
+            <p>Price: $100</p>
+            <button class="buy-button">Buy</button>
+            <p class="thank-you-message" style="display: none;">Thank you for buying this!</p>
+        </div>
+        <div class="sneaker-item" data-brand="Adidas">
+            <img src="shoe img/adidas retro.webp"  alt="adidas retro" class="sneaker-image">
+            <h3>Adidas Retro</h3>
+            <p>Price: $700</p>
+            <button class="buy-button">Buy</button>
+            <p class="thank-you-message" style="display: none;">Thank you for buying this!</p>
+        </div>
+        <div class="sneaker-item" data-brand="Asics Gel Kayano">
+            <img src="shoe img/asics gel kayano.jpg"  alt="Asics Gel Kayano" class="sneaker-image">
+            <h3>Asics Gel Kayano</h3>
+            <p>Price: $160</p>
+            <button class="buy-button">Buy</button>
+            <p class="thank-you-message" style="display: none;">Thank you for buying this!</p>
+        </div>
+        <div class="sneaker-item" data-brand="Saucony Shadow 6000">
+            <img src="shoe img/7da27a52fa14f29408219da3b477f0ed973c511f_Saucony_x_AG_Shadow_6000_os_1_768x768.webp"  alt="Saucony Shadow 6000" class="sneaker-image">
+            <h3>Saucony Shadow 6000</h3>
+            <p>Price: $130</p>
+            <button class="buy-button">Buy</button>
+            <p class="thank-you-message" style="display: none;">Thank you for buying this!</p>
+        </div>
+        <div class="sneaker-item" data-brand="Vans Old Skool">
+            <img src="shoe img/van old skool.jpg"  alt="Vans Old Skool" class="sneaker-image">
+            <h3>Vans Old Skool</h3>
+            <p>Price: $85</p>
+            <button class="buy-button">Buy</button>
+            <p class="thank-you-message" style="display: none;">Thank you for buying this!</p>
+        </div>
+        <div class="sneaker-item" data-brand="New Balance 574">
+            <img src="shoe img/nb 574.webp"  alt="New Balance 574" class="sneaker-image">
+            <h3>New Balance 574</h3>
+            <p>Price: $240</p>
+            <button class="buy-button">Buy</button>
+            <p class="thank-you-message" style="display: none;">Thank you for buying this!</p>
+        </div>
+        <div class="sneaker-item" data-brand="Reebok Club C">
+            <img src="shoe img/reebok club c.jpg"  alt="reebok Club C" class="sneaker-image">
+            <h3>Reebok Club C</h3>
+            <p>Price: $450</p>
+            <button class="buy-button">Buy</button>
+            <p class="thank-you-message" style="display: none;">Thank you for buying this!</p>
+        </div>
+        <div class="sneaker-item" data-brand="Puma Nitro">
+            <img src="shoe img/puma nitro.jpg"  alt="Puma Nitro" class="sneaker-image">
+            <h3>Puma Nitro</h3>
+            <p>Price: $330</p>
+            <button class="buy-button">Buy</button>
+            <p class="thank-you-message" style="display: none;">Thank you for buying this!</p>
+        </div>
+        <div class="sneaker-item" data-brand="Converse Chuck Taylor">
+            <img src="shoe img/allstar.jpg"  alt="Converse Chuck Taylor" class="sneaker-image">
+            <h3>Converse Chuck Taylor</h3>
+            <p>Price: $75</p>
+            <button class="buy-button">Buy</button>
+            <p class="thank-you-message" style="display: none;">Thank you for buying this!</p>
+        </div>
+        <div class="sneaker-item" data-brand="Nike Air Force">
+            <img src="shoe img/nikeairforce1.jpg"  alt="nikeairforce1" class="sneaker-image">
+            <h3>Nike Air Force 1</h3>
+            <p>Price: $1440</p>
+            <button class="buy-button">Buy</button>
+            <p class="thank-you-message" style="display: none;">Thank you for buying this!</p>
+        </div>
+    </section>
+   
+     <!-- Collection Section -->
+     <section id="collection" class="collection-section">
+        <h2>Our Latest Collections</h2>
+        <div class="collection-list">
+            <div class="collection-item">
+                <img src="img/summer sneaker.webp" alt="Sneaker Collection 1" class="collection-image">
+                <h3>Summer Collection</h3>
+                <p>Discover our bright and vibrant summer sneakers, perfect for sunny days.</p>
+                <button class="view-more-button" onclick="toggleDetails('details1')">View More</button>
+                <div id="details1" class="collection-details" style="display: none;">
+                    <p>Our Summer Collection features lightweight, breathable sneakers with bold colors that pop. Ideal for any summer adventure, these shoes offer both comfort and style.</p>
+                    <ul>
+                        <li>Lightweight and breathable</li>
+                        <li>Bold summer colors</li>
+                        <li>Comfortable for all-day wear</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="collection-item">
+                <img src="shoe img/winter sneaker.webp" alt="Sneaker Collection 2" class="collection-image">
+                <h3>Winter Collection</h3>
+                <p>Stay warm and stylish with our latest winter-ready sneakers.</p>
+                <button class="view-more-button" onclick="toggleDetails('details2')">View More</button>
+                <div id="details2" class="collection-details" style="display: none;">
+                    <p>The Winter Collection includes insulated sneakers designed to keep your feet warm while ensuring you look cool. Waterproof and durable, these are perfect for winter.</p>
+                    <ul>
+                        <li>Insulated for warmth</li>
+                        <li>Waterproof materials</li>
+                        <li>Durable and rugged design</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="collection-item">
+                <img src="img/retro jorden.jpg" alt="Sneaker Collection 3" class="collection-image">
+                <h3>Retro Collection</h3>
+                <p>Bring back the classics with our timeless retro sneaker collection.</p>
+                <button class="view-more-button" onclick="toggleDetails('details3')">View More</button>
+                <div id="details3" class="collection-details" style="display: none;">
+                    <p>The Retro Collection revives iconic sneaker designs from past decades, combining classic looks with modern comfort. Perfect for those who appreciate timeless style.</p>
+                    <ul>
+                        <li>Classic designs from the '80s and '90s</li>
+                        <li>Updated with modern technology</li>
+                        <li>Perfect for vintage fashion lovers</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="collection-item">
+                <img src="img/athletic.jpg" alt="Sneaker Collection 4" class="collection-image">
+                <h3>Athletic Collection</h3>
+                <p>Enhance your performance with our high-performance athletic sneakers.</p>
+                <button class="view-more-button" onclick="toggleDetails('details4')">View More</button>
+                <div id="details4" class="collection-details" style="display: none;">
+                    <p>The Athletic Collection includes sneakers designed for peak performance. With superior cushioning and support, these shoes are perfect for all your sports and fitness needs.</p>
+                    <ul>
+                        <li>Advanced cushioning technology</li>
+                        <li>Supportive and stable</li>
+                        <li>Ideal for sports and workouts</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="collection-item">
+                <img src="img/LUXURY-SNEAKERS.jpeg" alt="Sneaker Collection 5" class="collection-image">
+                <h3>Luxury Collection</h3>
+                <p>Step into elegance with our premium luxury sneaker collection.</p>
+                <button class="view-more-button" onclick="toggleDetails('details5')">View More</button>
+                <div id="details5" class="collection-details" style="display: none;">
+                    <p>The Luxury Collection features high-end sneakers crafted with the finest materials. These shoes offer a blend of sophistication and exclusivity for those who seek the best.</p>
+                    <ul>
+                        <li>Premium materials and craftsmanship</li>
+                        <li>Exclusive designs</li>
+                        <li>Elegant and sophisticated</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="collection-item">
+                <img src="img/Futuristic.webp" alt="Sneaker Collection 6" class="collection-image">
+                <h3>Futuristic Collection</h3>
+                <p>Embrace the future with our innovative and cutting-edge sneaker designs.</p>
+                <button class="view-more-button" onclick="toggleDetails('details6')">View More</button>
+                <div id="details6" class="collection-details" style="display: none;">
+                    <p>The Futuristic Collection showcases sneakers with avant-garde designs and the latest technological advancements. Perfect for trendsetters who want to stand out.</p>
+                    <ul>
+                        <li>Avant-garde designs</li>
+                        <li>Latest technology and materials</li>
+                        <li>Unique and eye-catching</li>
+                    </ul>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+   <!-- About Us Section -->
+   <section id="aboutus">
+    <h2>About Us</h2>
+    <div class="about-us-cards">
+        <div class="card">
+            <h3>Our Story</h3>
+            <p>At Ur.Sneakers, our passion for sneakers drives us to offer a curated selection of the best styles and innovations. We aim to provide a unique shopping experience for all sneaker enthusiasts, reflecting our commitment to quality and trend-setting designs.</p>
+        </div>
+        <div class="card">
+            <h3>Our Values</h3>
+            <ul>
+                <li><strong>Quality:</strong> Premium materials and craftsmanship in every sneaker.</li>
+                <li><strong>Innovation:</strong> Cutting-edge designs and technologies.</li>
+                <li><strong>Customer Satisfaction:</strong> Exceptional service and personalized attention.</li>
+                <li><strong>Community:</strong> Engaging with and supporting our sneaker community.</li>
+            </ul>
+        </div>
+        <div class="card">
+            <h3>Our Vision</h3>
+            <p>Our vision is to be the leading sneaker destination, providing unparalleled choices and experiences. We strive to exceed expectations and set new standards in the sneaker industry.</p>
+        </div>
+    </div>
+    
+</section>
+
+  
+
+
+    <script src="script.js"></script>
+</body>
+</html>
